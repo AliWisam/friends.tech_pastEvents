@@ -1,0 +1,19 @@
+{
+  "name": "bondingcurveeventlistener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eventListener.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 eventListener.js",
+    "dev": "nodemon eventListener.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "web3": "^1.6.0"
+
+  }
+}
